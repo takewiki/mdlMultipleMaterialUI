@@ -5,11 +5,12 @@
 \title{物料编码生成器界面}
 \usage{
 prdGenUI(
-  tabTitle = "物料编码生成器",
-  colTitles = c("物料属性设置", "物料生成结果"),
-  widthRates = c(4, 8),
+  tabTitle = "物料编码生成",
+  colTitles = c("物料分组设置", "物料属选选配", "物料生成结果"),
+  widthRates = c(4, 8, 12),
   func_left = prdGenUI_com_left,
-  func_right = prdGenUI_com_right
+  func_right = prdGenUI_com_right,
+  func_bottom = prdGenUI_com_bottom
 )
 }
 \arguments{
@@ -22,6 +23,8 @@ prdGenUI(
 \item{func_left}{左函数}
 
 \item{func_right}{右函数}
+
+\item{func_bottom}{下面一栏}
 }
 \value{
 返回值

@@ -1,7 +1,7 @@
 Package: mdlMultipleMaterialUI
 Type: Package
 Title: provied ui elements for Multiple material module in DMS.
-Version: 0.3.0
+Version: 1.0.0
 Author: hulilei
 Maintainer: hulilei <hulilei@takewiki.com.cn>
 Description: More about what it does (maybe more than one line)
@@ -15,6 +15,7 @@ Collate:
     'prdCategory.R'
     'prdGen.R'
     'prdGroup.R'
+    'prdSel.R'
     'propCategory.R'
     'propCategoryConfig.R'
     'propValue.R'

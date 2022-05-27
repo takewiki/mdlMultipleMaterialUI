@@ -1,7 +1,7 @@
 Package: mdlMultipleMaterialUI
 Type: Package
 Title: provied ui elements for Multiple material module in DMS.
-Version: 1.1.0
+Version: 1.2.0
 Author: hulilei
 Maintainer: hulilei <hulilei@takewiki.com.cn>
 Description: More about what it does (maybe more than one line)

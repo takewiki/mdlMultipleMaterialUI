@@ -42,6 +42,10 @@ prdGenUI_com_left <- function() {
 
   parentCategoryList = prdCategory_ParentCategory_query()
   res <- tagList(
+    shiny::actionButton(inputId = 'prdGen_more_button',label = '更多功能检查/显示'),
+    br(),
+    hr(),
+
     tsui::mdl_ListChoose1(id = 'prdGen_parentCategory_lc1',label = '请选择上级产品大类:',choiceNames = parentCategoryList,choiceValues = parentCategoryList,selected = parentCategoryList[[1]]),
     shinyWidgets::actionBttn(inputId = 'prdGen_confirm_btn',label = '确认选择'),
     #shinyWidgets::actionBttn(inputId = 'test',label = 'test'),
@@ -51,6 +55,7 @@ prdGenUI_com_left <- function() {
     br(),
     hr(),
     DT::dataTableOutput(outputId = 'prdGen_prdGroup_dt')
+
 
   )
   return(res)
